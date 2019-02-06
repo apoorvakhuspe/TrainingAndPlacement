@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> REGISTER </title>
+    {{message}}
+  </head>
+  <body>
+    <div class="register">
+      <form class="register" action="/reg/" method="post">
+        <label for="username">Username:
+          <input id="username" type="text" name="username" placeholder="Username">
+          <br>
+        </label>
+
+        <label for="password">Password:
+          <input id="password" type="password" name="password" placeholder="Password">
+          <br>
+        </label>
+
+        <label for="email">Email:
+          <input id="email" type="email" name="email" placeholder="Email">
+          <br>
+        </label>
+
+        <input type="radio" name="user_type" value="student">Student<br>
+        <input type="radio" name="user_type" value="teacher">Teacher<br>
+        <br>
+        <input type="submit" value="click">
+      </form>
+    </div>
+
+
+  </body>
+</html>
