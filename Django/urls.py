@@ -20,5 +20,8 @@ from App import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^reg/',views.register),
-    url(r'^login/',views.login)
+    url(r'^login/',views.login),
+    url(r'^studentDashboard/',views.stuDashboard),
+    url(r'^recruiterDashboard/',views.recDasboard),
+    url(r'^logout/',views.logout),
 ]
