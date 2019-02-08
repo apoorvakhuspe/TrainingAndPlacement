@@ -6,5 +6,23 @@
   </head>
   <body>
     <p>Welcome</p>
+
+    <div class="login">
+      <form class="login" action="/login/" method="post">
+        <label for="username">Username:
+          <input id="username" type="text" name="username" placeholder="Username">
+          <br>
+        </label>
+
+        <label for="password">Password:
+          <input id="password" type="password" name="password" placeholder="Password">
+          <br>
+        </label>
+
+        <br>
+        <input type="submit" value="click">
+      </form>
+    </div>
+    {{message}}
   </body>
 </html>

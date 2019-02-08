@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 from django.db import models
 
-user_type = [('student',"Student"),('teacher',"Teacher")]
+user_type = [('student',"Student"),('recruiter',"Recruiter")]
 class person(models.Model):
     username = models.CharField(max_length=25)
     password = models.CharField(max_length=25, blank=False)
